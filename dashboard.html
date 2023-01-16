@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body bgcolor="#FAE4C4">
+<?php
+<!-- require_once("component.php"); -->
+include '../component.php' ;
+
+?>
+
+<main>
+	<div class="container text-center">
+		<h1 class="py-4 rounded" id="hid">Books Hoard</h1>
+		<div class="d-flex justify-content-center">
+			<form action="" method="post" class="w-50">
+				<div class="pt-2">
+					<div class="input-group mb-2">
+						<div class="input-group-prepend">
+							<div class="input-group-text"><i class="fa fa-id-badge"></i></div>
+					</div>
+					<input type="text" name="" class="form-control" id="inlineFormInputGroup" placeholder="ID" autocomplete="off">
+				</div>
+				<div class="pt-2">
+					<div class="input-group mb-2">
+						<div class="input-group-prepend">
+							<div class="input-group-text"><i class="fa fa-book"></i></div>
+					</div>
+					<input type="text" name="" class="form-control" id="inlineFormInputGroup" placeholder="Book Name" autocomplete="off">
+				</div>
+				</div>
+				<div class="row pt-2">
+					<div class="col">
+						<div class="input-group mb-2">
+						<div class="input-group-prepend">
+							<div class="input-group-text"><i class="fa fa-id-card-o"></i></div>
+					</div>
+					<input type="text" name="" class="form-control" id="inlineFormInputGroup" placeholder="Author" autocomplete="off">
+				</div>
+					</div>
+					<div class="col">
+						<div class="input-group mb-2">
+						<div class="input-group-prepend">
+							<div class="input-group-text"><i class="fa fa-inr"></i></div>
+					</div>
+					<input type="text" name="" class="form-control" id="inlineFormInputGroup" placeholder="Book Price" autocomplete="off">
+				</div>
+					</div>
+				</div>
+				<div class="d-flex">
+					<!-- <button>Create</button> -->
+					<?php buttonElement(btnid:"btn-create",styleclass:"btn btn-success",text:"Create",name:"create",attr:"")?>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>

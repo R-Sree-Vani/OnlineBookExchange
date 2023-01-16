@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Books Hoard</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 
+</head>
+<!-- <body background="bck2.jpg"> -->
+	<body style="background-color: #FAE4CE;">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+<li class="nav-item" style="position:absolute;top:0px;left:20px;">
+      <a class="nav-link1 text-white " href="#"><img src="logo1.png" style="border-radius: 7px;" height="70px" width="150px">
+        
+      </a>
+    </li>
+<ul class="nav justify-content-end">
+	
+  <li class="nav-item">
+  <li class="nav-item">
+    <a class="nav-link active " href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#about">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#lgid">Login</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#signid">Sign Up</a>
+  </li>
+</ul>
+<hr>
+
+
+<center>
+	<div class="cendiv" style="background-color: #FAE4CE;opacity: 0.9;border-radius: 7px;"><b>
+		<h1>Welcome to the world of knowledge!</h1><br>
+		
+	<h2><b><i>A good reader should always have two books with him : one to read and the other to lend</i></b></h2><br>
+	<h3>Come and expand your knowledge by sharing your books</h3><br>
+
+	<p>Don't have an account? <a href="#signid" style="color: brown;">Sign Up</a>.
+	
+	Already have an account? <a href="#lgid" style="color: brown;">Login</a></p>
+	
+	</b>
+</div>
+	
+	<!-- <img src="gif1.gif" class="imgcls1" height="200px" width="300px"> -->
+<br><br><br><br>
+<div class="contcls"><b><hr></b>
+	<div class="signcls" >
+		<h1 id="signid" style="color: brown;"><u>Sign Up</u></h1><br>
+		<form action="signup.php" method="post">
+			Username: <input type="text" name="user-name" class="input-box" placeholder="name"><br><br>
+			User Email:  <input type="email" name="user-email" class="input-box" placeholder="email"><br><br>
+			Password: &nbsp;<input type="password" name="user-pass" class="input-box" placeholder="password"><br><br>
+			<input type="submit" name="signup-btn" class="btn" value="Signup" style="background-color: brown;color: white;font-weight: bold;">
+		</form>
+	</div>
+	<br><br><hr><br><br>
+	<div class="lgcls">
+		<h1 id="lgid" style="color: brown;"><u>Login</u></h1><br>
+		<form action="login.php" method="post">
+			Username: <input type="text" name="user-name" class="input-box" placeholder="name"><br><br>
+			Password: <input type="password" name="user-pass" class="input-box" placeholder="password"><br><br>
+			<input type="submit" name="login-btn" class="btn" value="Login" style="background-color: brown;color: white;font-weight: bold;">
+		</form>
+		<img src="gif1.gif" class="imgcls1" height="200px" width="300px">
+	</div>
+</div></center>
+<div id="about"><br>
+	<h2 style="color: white;text-decoration: underline;"><center><a href="#"><img style="border-radius: 7px;" src="logo1.png" height="150px" width="200px"></a></center></h2><br>
+	<div class="listcls">
+<ul>
+	<li><b><u>Our Services</u></b></li>
+	<li>Lend Books</li>
+	<li>Borrow Books</li>
+	<li>Browse Books</li>
+	<li>Refer Books</li>
+</ul>
+<ul>
+	<li><b><u>Team</u></b></li>
+	<li>R. Sree Vani</li>
+	<li>T. Sai Manohar</li>
+	<li>Sk. Suhail</li>
+	<li>Yeswanth Teja</li>
+</ul>
+<ul>
+	<li><b><u>Contact Us</u></b></li>
+	<li>bookshoard@gmail.com</li>
+	
+</ul>
+</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+body{
+	background-color: #FAE4C4;
+}
+.h11cls{
+	color: brown;
+	position: relative;
+	//left: 0px;
+	padding-left: 210px;
+}
+.acls{
+	text-align: right;
+	position: relative;
+	left: 500px;
+}
+#divid{
+	background-color: brown;
+	color: #FAE4C4;
+}
+#sidebarMenu{
+	position: relative;
+	background-color: brown;
+	color: #FAE4C4;
+
+}
+.a2cls : hover{
+	text-decoration: none;
+	background-color: #FAE4C4;
+	color: brown;
+}

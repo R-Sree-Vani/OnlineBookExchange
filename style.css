@@ -1,0 +1,98 @@
+*{
+	scroll-behavior: smooth;
+}
+	/*body{
+	background-repeat: no-repeat;
+	background-size: 100% 41%;
+	background-color: #FAE4C4;
+	background-attachment: scroll;
+}*/
+@media screen and (max-width:480px){
+	body{
+		width:100vh;
+	}
+}
+.nav-link{
+	font-size: 20px;
+	color: brown;
+	font-weight: bold;
+	margin: 10px 10px 0px 10px;
+}
+.nav-link:hover{
+	color: white;
+	text-decoration:underline;
+	background-color: brown;
+	border-radius: 7px;
+}
+hr{
+	background-color: brown;
+}
+.cendiv{
+	
+	height: 400px;
+	width: 600px;
+	
+	background-color: #fae4c4;
+    opacity: 0.7;
+    border-radius: 7px;
+}
+h2{
+	color: brown;
+}
+/*button{
+	padding: 50px;
+	width: 100px;
+}*/
+.imgcls1{
+	position: relative;
+	left:394px;
+	top:-213px;
+	border-radius: 7px;
+}
+.contcls{
+	background-color: #FAE4C4;
+}
+input{
+	margin: 0px;
+	justify-content: center;
+}
+#about{
+	background-color: brown;
+	color: white;
+	
+}
+.listcls{
+	display: flex;
+
+}
+ul{
+	padding: auto;
+	margin: auto;
+}
+li{
+	list-style-type: none;
+
+}
+#hid{
+	background-color: brown;
+	color:#FAE4C4; 
+}
+.input-group-text{
+	background-color: #FAE4C4; 
+	color: brown; 
+}
+
+.d-flex button{
+	margin: 1.5em 0.6em;
+	padding: 0.5em 2;
+}
+
+.success{
+	background-color: #90EE90;
+	padding: 1em;
+}
+
+.error{
+	background-color: #FF6347;
+	padding: 1em;
+}

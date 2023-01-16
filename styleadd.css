@@ -1,0 +1,46 @@
+*{
+	scroll-behavior: smooth;
+}
+	body{
+	background-repeat: no-repeat;
+	background-size: 100% 41%;
+	background-color: #FAE4C4;
+	background-attachment: scroll;
+}
+#hid{
+	background-color: brown;
+	color:#FAE4C4; 
+}
+.input-group-text{
+	background-color: #FAE4C4; 
+	color: brown; 
+}
+#tid{
+	background-color: brown;
+	color: #FAE4C4;
+}
+
+.d-flex button{
+	margin: 1.5em 0.5em;
+	padding: 0.3em 1.4em;
+}
+.d-flex table{
+	margin:1em 10em;
+}
+table .btnedit{
+	cursor: pointer;
+}
+
+.success{
+	background-color: #90EE90;
+	padding: 1em;
+}
+
+.error{
+	background-color: #FF6347;
+	padding: 1em;
+}
+
+.ccls{
+	color:  #FAE4C4;
+}
